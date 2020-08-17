@@ -5,6 +5,11 @@ long-running php script that will generate a chart of your latency times, one im
 each pixel is one second; each line line is five minutes; tick marks are generated to help
 identify hours
 
+![sample graph](https://i.imgur.com/r2UiaPt.png)
+
+the graphed colors go from black (0ms) to full green (100ms) to yellow (500ms) to "lost" (> 500 ms).
+in the image above, there was constant mild packet loss through the entire afternoon, with two
+total losses of connectivity just before 5 PM and right at 6 PM.
 
 ## usage
 
